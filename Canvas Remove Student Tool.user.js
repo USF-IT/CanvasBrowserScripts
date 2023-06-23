@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Canvas Student Bulk Remove Enrollments Tool
 // @namespace    https://github.com/USF-IT/CanvasBrowserScripts
-// @version      1.00
+// @version      1.01
 // @description  A Canvas UserScript to bulk remove student enrollments from a course.
 // @author       Chad Scott (ChadScott@katyisd.org)
 // @include     https://*.instructure.com/courses/*/users
