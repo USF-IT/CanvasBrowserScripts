@@ -26,8 +26,12 @@
     /* role setup */
     var roles = ENV.current_user_roles;
     var buttonRoles = ["admin", "root_admin", "bulk_delete_admin"];
-    var test1 = buttonRoles.some(el => roles.includes(el));
-    if( (test1 === true) && (assocRegex3.test(window.location.pathname))){
+    // Use this block if you want to limit to certain admin roles
+    // var test1 = buttonRoles.some(el => roles.includes(el));
+    // if( (test1 === true) && (assocRegex3.test(window.location.pathname))){
+    // add_button();
+    // }
+    if( (assocRegex3.test(window.location.pathname)) ){
         add_button();
     }
 
