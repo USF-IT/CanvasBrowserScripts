@@ -7,8 +7,6 @@ Install Taper Monkey [Chrome](https://chrome.google.com/webstore/detail/tampermo
 
 Add this script by [clicking this url](https://github.com/USF-IT/CanvasBrowserScripts/raw/main/Canvas%20Remove%20Student%20Tool.user.js)
 
-[Message USF IT](mailto:lms@usf.edu) and request to be granted Bulk Delete Admin access
-
 Navigate to the users page in one of your courses
 
 <img width="1328" alt="image" src="https://github.com/USF-IT/CanvasBrowserScripts/assets/596084/dcab914a-ba62-4e9e-8473-4ed9bc7f2f63">
