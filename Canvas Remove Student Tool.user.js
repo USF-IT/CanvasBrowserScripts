@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Canvas Student Bulk Remove Enrollments Tool
-// @namespace    https://github.com/sukotsuchido/CanvasUserScripts
-// @version      2.11
+// @namespace    https://github.com/USF-IT/CanvasBrowserScripts
+// @version      1.00
 // @description  A Canvas UserScript to bulk remove student enrollments from a course.
 // @author       Chad Scott (ChadScott@katyisd.org)
 // @include     https://*.instructure.com/courses/*/users
@@ -25,7 +25,7 @@
     var allStudents = [];
     /* role setup */
     var roles = ENV.current_user_roles;
-    var buttonRoles = ["admin", "root_admin"];
+    var buttonRoles = ["admin", "root_admin", "bulk_delete_admin"];
     var test1 = buttonRoles.some(el => roles.includes(el));
     if( (test1 === true) && (assocRegex3.test(window.location.pathname))){
         add_button();
